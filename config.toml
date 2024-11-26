@@ -1,0 +1,11 @@
+[visualizer]
+# Вариант 1: Использование PlantUML.jar
+plantuml_path = "plantuml-1.2024.7.jar"
+
+# Вариант 2: Использование установленного PlantUML через Chocolatey
+# plantuml_path = "C:\\ProgramData\\chocolatey\\bin\\plantuml.exe"
+
+package_name = "pandas "
+output_path = "dependencies.png"
+max_depth = 3
+repository_url = "https:/pypi.org/simple"
